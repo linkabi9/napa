@@ -88,7 +88,7 @@ The application currently supports the following configuration options under a `
 
 * "cache" - Set to *false* to completely disable package caching.
 * "cache-path" - Override default cache path to a specific location(relative to the current working directory)
-* "directory" - Override default (`node_modules```) package path to a specific location(relative to the current working directory)
+* "directory" - Override default (`node_modules`) package path to a specific location(relative to the current working directory)
 * "log-level" - Set the log level (default is 'info', may also be 'silent', 'error', 'warn', 'verbose', or 'silly').
 
 ```json
@@ -103,8 +103,8 @@ The application currently supports the following configuration options under a `
 ```
 
 ## Release History
-* 2.4.0 - Mindgruve Custom Release: Add support for a "directory" option in napa-config.
 * Please view https://github.com/shama/napa/commits/master for history.
+* 2.4.0 - Add support for a "directory" option in napa-config.
 * 2.0.1 - Fix path must be a string error (@caseyWebb).
 * 2.0.0 - Better detection for github repos, fixes when creating a package.json, cached git #tag urls now get updated properly (@tomekwi). Add config options for disabling cache or setting cache path (@bbsbb). Fix for npm3 erroring when .git folder present (@caseyWebb). Updating dependencies.
 * 1.2.0 - Callback optional with cli and do not ignore .gitignore files when unpacking (@dai-shi).
