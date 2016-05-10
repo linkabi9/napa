@@ -95,6 +95,7 @@ The application currently supports the following configuration options under a `
   "napa-config": {
     "cache": false,
     "cache-path": "../.napa-cache",
+    "directory": "napa_modules",
     "log-level": "error"
   }
 }
